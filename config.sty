@@ -1,0 +1,39 @@
+\ProvidesPackage{config}
+
+% page margin 
+\usepackage[
+	top=2cm,
+	right=3cm,
+	bottom=2cm,
+	left=3cm
+]{geometry}
+
+% language and characters
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{
+	amsmath,
+	amsfonts,
+	amssymb
+}
+
+% colors
+\usepackage{xcolor}
+
+% watermark config
+\usepackage{xwatermark}
+%\newwatermark[allpages, scale=4, angle=60, color=red!30]{text}
+
+% equations numbering
+\numberwithin{equation}{section}
+
+% graphics insertion
+\usepackage{graphicx}
+
+% references in the document (for equations, sections, images, websites)
+\usepackage{hyperref}
+\usepackage[]{cleveref}
+
+% manual draw
+\usepackage{tikz}
